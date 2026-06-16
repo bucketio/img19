@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">普通用户的更新建议</title>
+  <desc id="desc">一个简单流程图：设置活动时间、保留空间、定期更新、重要工作前先保存。</desc>
+  <rect width="900" height="420" fill="#f6fbf7"/>
+  <text x="55" y="62" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" font-weight="700" fill="#163423">普通用户：不要长期关闭，改成有节奏地管理</text>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="55" y="130" width="175" height="120" rx="16" fill="#ffffff" stroke="#9bd2b3" stroke-width="4"/>
+    <text x="142" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#1f6b43">设置活动时间</text>
+    <text x="142" y="214" text-anchor="middle" font-size="17" fill="#557062">减少自动重启打扰</text>
+    <path d="M245 190h70" stroke="#5fb47f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M300 174l20 16-20 16" fill="none" stroke="#5fb47f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="335" y="130" width="175" height="120" rx="16" fill="#ffffff" stroke="#9bd2b3" stroke-width="4"/>
+    <text x="422" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#1f6b43">留出 C 盘空间</text>
+    <text x="422" y="214" text-anchor="middle" font-size="17" fill="#557062">减少失败和卡顿</text>
+    <path d="M525 190h70" stroke="#5fb47f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M580 174l20 16-20 16" fill="none" stroke="#5fb47f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="615" y="130" width="230" height="120" rx="16" fill="#ffffff" stroke="#9bd2b3" stroke-width="4"/>
+    <text x="730" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#1f6b43">每周空闲时更新</text>
+    <text x="730" y="214" text-anchor="middle" font-size="17" fill="#557062">完成安装和重启</text>
+    <rect x="210" y="295" width="480" height="58" rx="14" fill="#e6f5ec" stroke="#83c89f" stroke-width="3"/>
+    <text x="450" y="331" text-anchor="middle" font-size="22" font-weight="700" fill="#1e6740">重要工作前：先保存文件，不临时装大更新</text>
+  </g>
+</svg>
