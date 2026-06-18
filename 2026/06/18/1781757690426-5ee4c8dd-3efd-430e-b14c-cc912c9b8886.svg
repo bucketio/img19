@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M420 565h760l70 95H350z"/>
+    <path d="M560 395l420 20 45 210-510-15z"/>
+    <path d="M560 395l-50 110 5 105"/>
+    <path d="M980 415l65-85 30 230"/>
+    <path d="M520 310l130-20 20 72-130 28z"/>
+    <path d="M690 280l138 8-12 80-138-8z"/>
+    <path d="M865 300l135-28 18 76-135 28z"/>
+    <path d="M1080 325l145 20-22 82-145-22z"/>
+    <path d="M660 365c40 42 90 56 145 62" stroke="#f28c28" stroke-width="7"/>
+    <path d="M850 365c45 37 88 52 132 60" stroke="#f28c28" stroke-width="7"/>
+    <path d="M1040 405c35 28 55 50 60 90" stroke="#f28c28" stroke-width="7"/>
+  </g>
+  <g fill="#111">
+    <path d="M365 330c72-10 115 28 116 96 1 70-36 111-104 111-70 0-109-39-110-101-1-56 35-96 98-106z"/>
+    <circle cx="350" cy="420" r="9" fill="#fff"/><circle cx="396" cy="417" r="9" fill="#fff"/>
+    <path d="M345 535c-10 54-24 83-50 114" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M422 533c18 50 35 82 66 112" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M450 410c50-45 88-60 140-60" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M1060 470c52 5 78 25 90 62" stroke="#111" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <g font-family="KaiTi, STKaiti, SimSun, serif" font-size="38" fill="#111">
+    <text x="548" y="285">目标</text>
+    <text x="720" y="265" fill="#2f6fbd">现场</text>
+    <text x="900" y="270" fill="#d33">边界</text>
+    <text x="1080" y="305">做到哪算完</text>
+    <text x="690" y="540" fill="#f28c28">任务盒</text>
+  </g>
+</svg>
