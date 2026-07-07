@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      .font{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}
+      .h1{font-size:47px;font-weight:800;fill:#17324d}
+      .center{font-size:33px;font-weight:800;fill:#fff}
+      .node{font-size:27px;font-weight:800;fill:#17324d}
+      .txt{font-size:20px;fill:#4a5f70}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#f6f3eb"/>
+  <text x="70" y="83" class="font h1">利益相关方地图</text>
+  <text x="72" y="123" class="font txt">同一事件里，不同主体追求的“结束方式”并不一样。</text>
+  <g stroke="#9bb0bf" stroke-width="4" fill="none">
+    <path d="M600 337 L245 200"/>
+    <path d="M600 337 L955 200"/>
+    <path d="M600 337 L210 480"/>
+    <path d="M600 337 L600 540"/>
+    <path d="M600 337 L990 480"/>
+  </g>
+  <circle cx="600" cy="337" r="98" fill="#17324d"/>
+  <text x="600" y="326" text-anchor="middle" class="font center">公共医疗</text>
+  <text x="600" y="366" text-anchor="middle" class="font center">事件</text>
+  <g>
+    <rect x="90" y="145" width="310" height="120" rx="22" fill="#eaf4fb" stroke="#5795b8" stroke-width="3"/>
+    <text x="245" y="190" text-anchor="middle" class="font node">家属</text>
+    <text x="245" y="224" text-anchor="middle" class="font txt">真相、责任、尊严、结果</text>
+  </g>
+  <g>
+    <rect x="800" y="145" width="310" height="120" rx="22" fill="#fff1df" stroke="#d9903f" stroke-width="3"/>
+    <text x="955" y="190" text-anchor="middle" class="font node">医院 / 医护</text>
+    <text x="955" y="224" text-anchor="middle" class="font txt">责任边界、声誉、业务稳定</text>
+  </g>
+  <g>
+    <rect x="55" y="420" width="310" height="120" rx="22" fill="#eef8ef" stroke="#66a46a" stroke-width="3"/>
+    <text x="210" y="465" text-anchor="middle" class="font node">卫健 / 地方部门</text>
+    <text x="210" y="499" text-anchor="middle" class="font txt">公信力、秩序、依法处理</text>
+  </g>
+  <g>
+    <rect x="445" y="515" width="310" height="120" rx="22" fill="#f7eef9" stroke="#9b6ab2" stroke-width="3"/>
+    <text x="600" y="560" text-anchor="middle" class="font node">公安司法</text>
+    <text x="600" y="594" text-anchor="middle" class="font txt">证据链、程序、罪责边界</text>
+  </g>
+  <g>
+    <rect x="835" y="420" width="310" height="120" rx="22" fill="#fdeceb" stroke="#d86154" stroke-width="3"/>
+    <text x="990" y="465" text-anchor="middle" class="font node">平台 / 网友</text>
+    <text x="990" y="499" text-anchor="middle" class="font txt">关注、流量、情绪与监督</text>
+  </g>
+</svg>
