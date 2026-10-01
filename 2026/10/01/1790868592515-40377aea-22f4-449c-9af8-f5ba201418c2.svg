@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 800" width="760" height="800">
+<defs>
+  <style>
+    text { font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+  </style>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#1D4ED8"/><stop offset="100%" stop-color="#60A5FA"/>
+  </linearGradient>
+  <linearGradient id="gOrange" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#C2410C"/><stop offset="100%" stop-color="#FB923C"/>
+  </linearGradient>
+  <filter id="shadowSm">
+    <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#64748B" flood-opacity="0.12"/>
+  </filter>
+</defs>
+
+<rect width="760" height="800" fill="#F8FAFC"/>
+
+<text x="380" y="48" font-size="26" font-weight="800" fill="#0F172A" text-anchor="middle">同一个 turn,谁说了算</text>
+<text x="380" y="76" font-size="14" fill="#64748B" text-anchor="middle">内置 runtime 和 Codex app-server,各自拥有的部分不一样</text>
+
+<!-- Headers -->
+<g filter="url(#shadowSm)">
+  <rect x="200" y="100" width="255" height="48" rx="12" fill="url(#gBlue)"/>
+  <rect x="465" y="100" width="255" height="48" rx="12" fill="url(#gOrange)"/>
+</g>
+<text x="327.5" y="130" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">openclaw 内置 runtime</text>
+<text x="592.5" y="130" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">codex app-server</text>
+
+<!-- Row 1 -->
+<rect x="40" y="160" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="196" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">模型循环谁跑</text>
+<rect x="200" y="160" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="196" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 自己的内置 runner</text>
+<rect x="465" y="160" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="196" font-size="13" fill="#0F172A" text-anchor="middle">Codex app-server</text>
+
+<!-- Row 2 -->
+<rect x="40" y="232" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="268" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">线程状态以谁为准</text>
+<rect x="200" y="232" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="268" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 转录</text>
+<rect x="465" y="232" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="259" font-size="13" fill="#0F172A" text-anchor="middle">Codex 线程为准,</text>
+<text x="592.5" y="279" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 转录做镜像</text>
+
+<!-- Row 3 -->
+<rect x="40" y="304" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="331" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">OpenClaw</text>
+<text x="115" y="351" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">动态工具</text>
+<rect x="200" y="304" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="340" font-size="13" fill="#0F172A" text-anchor="middle">原生工具循环</text>
+<rect x="465" y="304" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="340" font-size="13" fill="#0F172A" text-anchor="middle">经 Codex 适配层桥接</text>
+
+<!-- Row 4 -->
+<rect x="40" y="376" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="403" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">shell 与</text>
+<text x="115" y="423" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">文件工具</text>
+<rect x="200" y="376" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="412" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 自己的路径</text>
+<rect x="465" y="376" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="403" font-size="13" fill="#0F172A" text-anchor="middle">Codex 原生工具,</text>
+<text x="592.5" y="423" font-size="13" fill="#0F172A" text-anchor="middle">支持的地方经原生 hook 桥接</text>
+
+<!-- Row 5 -->
+<rect x="40" y="448" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="484" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">上下文引擎</text>
+<rect x="200" y="448" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="484" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 原生装配</text>
+<rect x="465" y="448" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="475" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw 把装配好的上下文</text>
+<text x="592.5" y="495" font-size="13" fill="#0F172A" text-anchor="middle">投影进 Codex 的这一轮</text>
+
+<!-- Row 6 -->
+<rect x="40" y="520" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="556" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">压缩</text>
+<rect x="200" y="520" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="327.5" y="547" font-size="13" fill="#0F172A" text-anchor="middle">OpenClaw,或所选的</text>
+<text x="327.5" y="567" font-size="13" fill="#0F172A" text-anchor="middle">context engine</text>
+<rect x="465" y="520" width="255" height="62" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="592.5" y="547" font-size="13" fill="#0F172A" text-anchor="middle">Codex 原生压缩,OpenClaw</text>
+<text x="592.5" y="567" font-size="13" fill="#0F172A" text-anchor="middle">负责通知和镜像维护</text>
+
+<!-- Row 7: same owner -->
+<rect x="40" y="592" width="150" height="62" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+<text x="115" y="628" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">渠道投递</text>
+<rect x="200" y="592" width="255" height="62" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+<text x="327.5" y="628" font-size="14" font-weight="700" fill="#166534" text-anchor="middle">OpenClaw</text>
+<rect x="465" y="592" width="255" height="62" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+<text x="592.5" y="628" font-size="14" font-weight="700" fill="#166534" text-anchor="middle">OpenClaw</text>
+
+<!-- Footer -->
+<g filter="url(#shadowSm)">
+  <rect x="40" y="674" width="680" height="96" rx="14" fill="#0F172A"/>
+</g>
+<text x="64" y="704" font-size="14" font-weight="700" fill="#FBBF24">官方文档里的设计规则:谁拥有这一面,谁说了算</text>
+<text x="64" y="730" font-size="13" fill="#E2E8F0">OpenClaw 拥有的面,能给出正常的插件 hook;原生 runtime 拥有的面,</text>
+<text x="64" y="750" font-size="13" fill="#E2E8F0">OpenClaw 只能靠 runtime 事件或原生 hook,线程状态在对方手里时只做镜像和投影。</text>
+</svg>
