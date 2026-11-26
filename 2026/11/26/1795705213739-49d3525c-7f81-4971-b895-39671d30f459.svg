@@ -1,0 +1,26 @@
+<svg viewBox="0 0 680 275" width="100%" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>牛鞭效应示意图</title>
+<desc>终端需求平稳，零售商、分销商到工厂的订单波动逐级放大</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<text x="40" y="38" font-family="sans-serif" font-size="14" font-weight="500" fill="#0C447C">牛鞭效应：需求信号越往上游，波动越大</text>
+<path d="M20 160 L600 160" fill="none" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="4 4"/>
+<polyline points="20,160 32.5,152 45,168 57.5,152 70,168 82.5,152 95,168 107.5,152 120,160" fill="none" stroke="#378ADD" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="180,160 192.5,142 205,178 217.5,142 230,178 242.5,142 255,178 267.5,142 280,160" fill="none" stroke="#378ADD" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="340,160 352.5,128 365,192 377.5,128 390,192 402.5,128 415,192 427.5,128 440,160" fill="none" stroke="#D85A30" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="500,160 512.5,115 525,205 537.5,115 550,205 562.5,115 575,205 587.5,115 600,160" fill="none" stroke="#D85A30" stroke-width="2" stroke-linejoin="round"/>
+<path d="M125 160 L173 160" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M285 160 L333 160" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M445 160 L493 160" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="70" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#0C447C">终端需求</text>
+<text x="230" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#0C447C">零售商订单</text>
+<text x="390" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#993C1D">分销商订单</text>
+<text x="550" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#993C1D">工厂排产</text>
+<text x="70" y="253" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5F5E5A">平稳</text>
+<text x="230" y="253" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5F5E5A">小幅放大</text>
+<text x="390" y="253" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5F5E5A">明显放大</text>
+<text x="550" y="253" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5F5E5A">剧烈波动</text>
+</svg>
