@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520" viewBox="0 0 1080 520" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+  <defs>
+    <linearGradient id="cardB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1224"/><stop offset="1" stop-color="#070B18"/>
+    </linearGradient>
+    <linearGradient id="axis" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glB" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="g3" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="520" rx="22" fill="url(#cardB)"/>
+  <rect width="1080" height="520" rx="22" fill="url(#g3)"/>
+  <rect x="0" y="0" width="1080" height="6" rx="3" fill="url(#axis)"/>
+
+  <g>
+    <rect x="44" y="40" rx="6" width="6" height="34" fill="#22D3EE" filter="url(#glB)"/>
+    <text x="66" y="66" font-size="30" fill="#FFFFFF" font-weight="700">图 1｜二十年，五代 PON 标准接力</text>
+    <text x="66" y="102" font-size="18" fill="#8FA6C8">从 155.52 Mbit/s 到 49.7664 Gbit/s</text>
+  </g>
+
+  <line x1="80" y1="300" x2="1000" y2="300" stroke="url(#axis)" stroke-width="4" filter="url(#glB)"/>
+  <g font-size="19" text-anchor="middle" fill="#FFFFFF" font-weight="700">
+    <g>
+      <circle cx="100" cy="300" r="9" fill="#070B18" stroke="#22D3EE" stroke-width="3" filter="url(#glB)"/>
+      <text x="100" y="238">APON/BPON</text>
+      <text x="100" y="268" fill="#8FA6C8" font-size="14" font-weight="400">≤0.622 Gbit/s</text>
+      <text x="100" y="348" fill="#22D3EE" font-size="17">1998</text>
+    </g>
+    <g>
+      <circle cx="243" cy="300" r="9" fill="#070B18" stroke="#22D3EE" stroke-width="3" filter="url(#glB)"/>
+      <text x="243" y="238">GPON</text>
+      <text x="243" y="268" fill="#8FA6C8" font-size="14" font-weight="400">2.488/1.244G</text>
+      <text x="243" y="348" fill="#22D3EE" font-size="17">2003</text>
+    </g>
+    <g>
+      <circle cx="387" cy="300" r="9" fill="#070B18" stroke="#3B82F6" stroke-width="3" filter="url(#glB)"/>
+      <text x="387" y="238">EPON</text>
+      <text x="387" y="268" fill="#8FA6C8" font-size="14" font-weight="400">1.25G 对称</text>
+      <text x="387" y="348" fill="#3B82F6" font-size="17">2004</text>
+    </g>
+    <g>
+      <circle cx="530" cy="300" r="9" fill="#070B18" stroke="#3B82F6" stroke-width="3" filter="url(#glB)"/>
+      <text x="530" y="238">10G-EPON</text>
+      <text x="530" y="268" fill="#8FA6C8" font-size="14" font-weight="400">10G 对称/10:1</text>
+      <text x="530" y="348" fill="#3B82F6" font-size="17">2009</text>
+    </g>
+    <g>
+      <circle cx="673" cy="300" r="9" fill="#070B18" stroke="#22D3EE" stroke-width="3" filter="url(#glB)"/>
+      <text x="673" y="238">NG-PON2</text>
+      <text x="673" y="268" fill="#8FA6C8" font-size="14" font-weight="400">4×10G＝40G</text>
+      <text x="673" y="348" fill="#22D3EE" font-size="17">2013</text>
+    </g>
+    <g>
+      <circle cx="817" cy="300" r="9" fill="#070B18" stroke="#22D3EE" stroke-width="3" filter="url(#glB)"/>
+      <text x="817" y="238">XGS-PON</text>
+      <text x="817" y="268" fill="#8FA6C8" font-size="14" font-weight="400">9.953G 对称</text>
+      <text x="817" y="348" fill="#22D3EE" font-size="17">2016</text>
+    </g>
+    <g>
+      <circle cx="960" cy="300" r="9" fill="#070B18" stroke="#3B82F6" stroke-width="3" filter="url(#glB)"/>
+      <text x="960" y="238">50G-PON</text>
+      <text x="960" y="268" fill="#8FA6C8" font-size="14" font-weight="400">49.7664G 下行</text>
+      <text x="960" y="348" fill="#3B82F6" font-size="17">2019</text>
+    </g>
+  </g>
+
+  <g>
+    <line x1="44" y1="432" x2="1036" y2="432" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="44" y="470" font-size="19" fill="#7E93B8">图注：年代为标准批准/发布年份，速率均为线路速率 · 依据 ITU-T G.983/G.984/G.987/G.9807/G.989/G.9804 与 IEEE 802.3ah/av</text>
+    <text x="1036" y="470" font-size="15" fill="#4E5F7E" text-anchor="end">PON 知识图谱</text>
+  </g>
+</svg>
